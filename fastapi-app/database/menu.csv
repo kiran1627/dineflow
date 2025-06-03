@@ -1,0 +1,101 @@
+item_id,name,price,category,description,image
+1,Paneer Tikka,160,Veg Starters,Grilled paneer cubes with spices,paneer_tikka.jpg
+2,Hara Bhara Kabab,140,Veg Starters,Spinach and peas patties,hara_bhara_kabab.jpg
+3,Aloo Tikki,50,Veg Starters,Crispy fried potato patties,aloo_tikki.jpg
+4,Corn Cheese Balls,100,Veg Starters,Deep-fried cheese and corn balls,corn_cheese_balls.jpg
+5,Crispy Baby Corn,120,Veg Starters,Spicy fried baby corn,crispy_baby_corn.jpg
+6,Samosa,40,Snacks,Potato filled pastry,samosa.jpg
+7,Pakora,50,Snacks,Crispy fritters made with veggies,pakora.jpg
+8,Bread Roll,45,Snacks,Deep-fried stuffed bread roll,bread_roll.jpg
+9,Onion Rings,60,Snacks,Fried crispy onion rings,onion_rings.jpg
+10,Aloo Chaat,70,Snacks,Spicy tangy potato snack,aloo_chaat.jpg
+11,Chicken 65,180,Non-Veg Starters,Spicy deep-fried chicken,chicken_65.jpg
+12,Fish Fingers,200,Non-Veg Starters,Fried fish fingers with dip,fish_fingers.jpg
+13,Chicken Lollipop,190,Non-Veg Starters,Fried spicy chicken wings,chicken_lollipop.jpg
+14,Tandoori Chicken,220,Non-Veg Starters,Roasted spicy chicken,tandoori_chicken.jpg
+15,Mutton Seekh Kebab,250,Non-Veg Starters,Minced mutton skewers,mutton_seekh.jpg
+16,Veg Biryani,160,Veg Biryanis,Biryani with mixed vegetables,veg_biryani.jpg
+17,Paneer Biryani,170,Veg Biryanis,Spicy biryani with paneer,paneer_biryani.jpg
+18,Mushroom Biryani,180,Veg Biryanis,Biryani with mushrooms,mushroom_biryani.jpg
+19,Chicken Biryani,200,Non-Veg Biryanis,Classic chicken biryani,chicken_biryani.jpg
+20,Mutton Biryani,240,Non-Veg Biryanis,Traditional mutton biryani,mutton_biryani.jpg
+21,Egg Biryani,180,Non-Veg Biryanis,Biryani with boiled eggs,egg_biryani.jpg
+22,Gulab Jamun,60,Desserts,Sweet milk-solid balls,gulab_jamun.jpg
+23,Rasgulla,60,Desserts,Sweet spongy cheese balls,rasgulla.jpg
+24,Jalebi,50,Desserts,Sweet syrupy spirals,jalebi.jpg
+25,Kaju Katli,100,Desserts,Cashew sweet in diamond shape,kaju_katli.jpg
+26,Ice Cream Sundae,90,Desserts,Ice cream with toppings,ice_cream_sundae.jpg
+27,Black Forest Cake,120,Cakes,Chocolate layered cream cake,black_forest_cake.jpg
+28,Red Velvet Cake,140,Cakes,Soft red cake with cream cheese,red_velvet_cake.jpg
+29,Chocolate Truffle,130,Cakes,Dense chocolate cake,chocolate_truffle.jpg
+30,Fruit Cake,100,Cakes,Cake with mixed fruits,fruit_cake.jpg
+31,Blueberry Cheesecake,150,Cakes,Creamy cheesecake with blueberry topping,blueberry_cheesecake.jpg
+32,Cold Coffee,80,Beverages,Chilled coffee with cream,cold_coffee.jpg
+33,Lassi,60,Beverages,Refreshing yogurt drink,lassi.jpg
+34,Lemonade,40,Beverages,Lemon flavored drink,lemonade.jpg
+35,Mango Shake,90,Beverages,Mango flavored milkshake,mango_shake.jpg
+36,Masala Chai,30,Beverages,Spiced Indian tea,masala_chai.jpg
+37,Dosa,80,South Indian,Crispy rice pancake,dosa.jpg
+38,Masala Dosa,100,South Indian,Dosa with potato filling,masala_dosa.jpg
+39,Idli,60,South Indian,Steamed rice cakes,idli.jpg
+40,Vada,70,South Indian,Fried lentil doughnut,vada.jpg
+41,Uttapam,90,South Indian,Thick pancake with toppings,uttapam.jpg
+42,Hakka Noodles,120,Chinese,Stir-fried noodles,hakka_noodles.jpg
+43,Schezwan Fried Rice,130,Chinese,Spicy fried rice,schezwan_fried_rice.jpg
+44,Manchurian,140,Chinese,Fried veggie balls in sauce,manchurian.jpg
+45,Chilli Chicken,160,Chinese,Spicy chicken in sauce,chilli_chicken.jpg
+46,Spring Rolls,100,Chinese,Fried veggie rolls,spring_rolls.jpg
+47,Pasta Alfredo,150,Continental,Creamy white sauce pasta,pasta_alfredo.jpg
+48,Pasta Arrabbiata,140,Continental,Spicy red sauce pasta,pasta_arrabbiata.jpg
+49,Grilled Sandwich,80,Continental,Toasted sandwich with veggies,grilled_sandwich.jpg
+50,Cheese Garlic Bread,70,Continental,Garlic bread with cheese,cheese_garlic_bread.jpg
+51,Burger Veg,90,Continental,Veg burger with patty,burger_veg.jpg
+52,Burger Chicken,110,Continental,Chicken burger,burger_chicken.jpg
+53,French Fries,60,Continental,Crispy potato fries,french_fries.jpg
+54,Paneer Wrap,100,Snacks,Stuffed paneer roll,paneer_wrap.jpg
+55,Chicken Wrap,120,Snacks,Stuffed chicken roll,chicken_wrap.jpg
+56,Thali Veg,180,Indian,Complete veg meal,veg_thali.jpg
+57,Thali Non-Veg,220,Indian,Complete non-veg meal,nonveg_thali.jpg
+58,Chole Bhature,100,Indian,Chickpeas with fried bread,chole_bhature.jpg
+59,Pav Bhaji,90,Indian,Mixed veg curry with buns,pav_bhaji.jpg
+60,Paneer Butter Masala,180,Indian,Rich paneer curry,paneer_butter_masala.jpg
+61,Butter Chicken,200,Indian,Creamy chicken curry,butter_chicken.jpg
+62,Palak Paneer,160,Indian,Spinach curry with paneer,palak_paneer.jpg
+63,Dal Makhani,150,Indian,Rich black lentil curry,dal_makhani.jpg
+64,Jeera Rice,80,Indian,Cumin flavored rice,jeera_rice.jpg
+65,Roti,15,Indian,Whole wheat flatbread,roti.jpg
+66,Naan,20,Indian,Soft tandoori bread,naan.jpg
+67,Garlic Naan,25,Indian,Naan with garlic topping,garlic_naan.jpg
+68,Paratha,30,Indian,Layered flatbread,paratha.jpg
+69,Aloo Paratha,50,Indian,Stuffed potato paratha,aloo_paratha.jpg
+70,Egg Curry,150,Indian,Eggs in spicy curry,egg_curry.jpg
+71,Baingan Bharta,130,Indian,Roasted eggplant curry,baingan_bharta.jpg
+72,Mixed Veg Curry,140,Indian,Spiced mixed vegetables,mixed_veg.jpg
+73,Boondi Raita,40,Indian,Yogurt with fried boondi,boondi_raita.jpg
+74,Cucumber Raita,40,Indian,Yogurt with cucumber,cucumber_raita.jpg
+75,Green Salad,30,Salads,Fresh vegetable salad,green_salad.jpg
+76,Russian Salad,70,Salads,Mayonnaise-based salad,russian_salad.jpg
+77,Fruit Salad,60,Salads,Seasonal fruit mix,fruit_salad.jpg
+78,Bhel Puri,50,Snacks,Puffed rice chaat,bhel_puri.jpg
+79,Pani Puri,40,Snacks,Spicy water balls,pani_puri.jpg
+80,Dahi Puri,50,Snacks,Yogurt filled puris,dahi_puri.jpg
+81,Sev Puri,50,Snacks,Flat puris with toppings,sev_puri.jpg
+82,Ragda Pattice,60,Snacks,Potato patties with peas curry,ragda_pattice.jpg
+83,Kachori,40,Snacks,Spiced lentil-filled pastry,kachori.jpg
+84,Moong Dal Halwa,90,Desserts,Warm lentil dessert,moong_dal_halwa.jpg
+85,Gajar Halwa,80,Desserts,Carrot dessert with milk,gajar_halwa.jpg
+86,Basundi,70,Desserts,Condensed milk dessert,basundi.jpg
+87,Chocolate Ice Cream,60,Desserts,Chilled chocolate dessert,chocolate_icecream.jpg
+88,Vanilla Ice Cream,50,Desserts,Classic vanilla dessert,vanilla_icecream.jpg
+89,Strawberry Ice Cream,60,Desserts,Fruit flavored ice cream,strawberry_icecream.jpg
+90,Butterscotch Ice Cream,65,Desserts,Crispy caramel flavored,butterscotch_icecream.jpg
+91,Irish Coffee,90,Beverages,Hot coffee with Irish flavor,irish_coffee.jpg
+92,Orange Juice,70,Beverages,Fresh orange drink,orange_juice.jpg
+93,Watermelon Juice,60,Beverages,Fresh watermelon drink,watermelon_juice.jpg
+94,Peach Iced Tea,80,Beverages,Cold peach flavored tea,peach_iced_tea.jpg
+95,Mojito,70,Beverages,Lime mint cooler,mojito.jpg
+96,Hot Chocolate,90,Beverages,Rich chocolate drink,hot_chocolate.jpg
+97,Mineral Water,20,Beverages,Bottled drinking water,water.jpg
+98,Buttermilk,30,Beverages,Salted yogurt drink,buttermilk.jpg
+99,Espresso,60,Beverages,Strong black coffee,espresso.jpg
+100,Cappuccino,80,Beverages,Coffee with frothy milk,cappuccino.jpg

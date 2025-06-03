@@ -1,0 +1,36 @@
+order_id,customer_name,user_email,items,total_price,mode,order_type,timestamp,status
+DINEIN-1747668817109,kiran@gmail.com,kiran@gmail.com,Paneer Biryani x1 @ ₹170.0,170.0,dinein,dinein,2025-05-20 22:52:25,served
+DINEIN-1747670027139,kiran@gmail.com,kiran@gmail.com,Chicken 65 x1 @ ₹180.0,180.0,dine-in,dine-in,2025-05-20 19:29:25,cancelled
+ONLINE-1747720544430,kiran@gmail.com,kiran@gmail.com,Veg Biryani x1 @ ₹160.0; Paneer Biryani x1 @ ₹170.0,330.0,online,online,2025-05-20 22:19:45,delivered
+DINEIN-1747722831816,kiran@gmail.com,kiran@gmail.com,Paneer Biryani x1 @ ₹170.0,170.0,dinein,dinein,2025-05-20 22:52:23,served
+DINEIN-1747722988406,kiran@gmail.com,kiran@gmail.com,Black Forest Cake x1 @ ₹120.0,120.0,dinein,dinein,2025-05-20 22:52:21,served
+ONLINE-1747726700686,kiran@gmail.com,kiran@gmail.com,Chicken Lollipop x1 @ ₹190.0,190.0,online,online,2025-05-20 22:19:58,delivered
+ONLINE-1747728370370,kiran@gmail.com,kiran@gmail.com,Chicken 65 x1 @ ₹180.0,180.0,online,online,2025-05-20 13:36:45,cancelled
+ONLINE-1747730550180,kiran@gmail.com,kiran@gmail.com,Chicken 65 x1 @ ₹180.0,180.0,online,online,2025-05-20 22:20:05,delivered
+ONLINE-1747742964004,kiran@gmail.com,kiran@gmail.com,Veg Biryani x1 @ ₹160.0,160.0,online,online,2025-05-20 22:20:07,delivered
+ONLINE-1747743146630,kiran@gmail.com,kiran@gmail.com,Chicken 65 x1 @ ₹180.0,180.0,online,online,2025-05-20 22:20:10,delivered
+ONLINE-1747743537086,kiran@gmail.com,kiran@gmail.com,Paneer Biryani x1 @ ₹170.0,170.0,online,online,2025-05-20 22:20:12,delivered
+ONLINE-1747744081694,kiran@gmail.com,kiran@gmail.com,Chicken Lollipop x1 @ ₹190.0,190.0,online,online,2025-05-20 22:20:14,delivered
+ONLINE-1747744511027,kiran@gmail.com,kiran@gmail.com,Chicken 65 x1 @ ₹180.0,180.0,online,online,2025-05-20 22:20:16,delivered
+ONLINE-1747744592301,kiran@gmail.com,kiran@gmail.com,Chicken Lollipop x1 @ ₹190.0,190.0,online,online,2025-05-20 22:20:18,delivered
+ONLINE-1747745317616,kiran@gmail.com,kiran@gmail.com,Mutton Biryani x1 @ ₹240.0; Lassi x1 @ ₹60.0,300.0,online,online,2025-05-20 22:20:19,delivered
+DINEIN-1747745450084,kiran@gmail.com,kiran@gmail.com,Paneer Tikka x2 @ ₹160.0; Paneer Biryani x1 @ ₹170.0,490.0,dinein,dinein,2025-05-20 22:52:20,served
+DINEIN-1747748498573,kiran@gmail.com,kiran@gmail.com,Chicken Lollipop x1 @ ₹190.0,190.0,dinein,dinein,2025-05-20 22:52:17,served
+DINEIN-1747749526996,kiran@gmail.com,kiran@gmail.com,Paneer Tikka x1 @ ₹160.0,160.0,dinein,dinein,2025-05-20 22:52:14,served
+DINEIN-1747751339617,kiran@gmail.com,kiran@gmail.com,Red Velvet Cake x1 @ ₹140.0,140.0,dinein,dinein,2025-05-20 22:52:12,served
+ONLINE-1747751542111,kiran@gmail.com,kiran@gmail.com,Chicken 65 x1 @ ₹180.0,180.0,online,online,2025-05-20 20:05:37,cancelled
+ONLINE-1747751829990,kiran@gmail.com,kiran@gmail.com,Hara Bhara Kabab x1 @ ₹140.0,140.0,online,online,2025-05-20 20:57:09,cancelled
+DINEIN-1747759890570,kiran@gmail.com,kiran@gmail.com,Paneer Biryani x1 @ ₹170.0,170.0,dinein,dinein,2025-05-20 22:52:10,served
+ONLINE-1747760322837,kiran@gmail.com,kiran@gmail.com,Samosa x1 @ ₹40.0,40.0,online,online,2025-05-20 22:29:13,delivered
+DINEIN-1747760621491,kiran@gmail.com,kiran@gmail.com,Paneer Tikka x1 @ ₹160.0,160.0,dinein,dinein,2025-05-20 22:51:55,served
+ONLINE-1747805747767,kiran@gmail.com,kiran@gmail.com,Paneer Biryani x1 @ ₹170.0,170.0,online,online,2025-05-21 11:07:10,delivered
+ONLINE-1747805811426,kiran@gmail.com,kiran@gmail.com,Chicken Lollipop x1 @ ₹190.0; Tandoori Chicken x1 @ ₹220.0,410.0,online,online,2025-05-21 11:07:32,delivered
+ONLINE-1747806063187,kiran@gmail.com,kiran@gmail.com,Samosa x1 @ ₹40.0,40.0,online,online,2025-05-21 11:11:21,cancelled
+ONLINE-1747903276262,kiran@gmail.com,kiran@gmail.com,Paneer Tikka x1 @ ₹160.0,160.0,online,online,2025-05-22 14:12:32,delivered
+DINEIN-1748512673714,kiran@gmail.com,kiran@gmail.com,Lassi x1 @ ₹60.0,60.0,dinein,dinein,2025-05-29 15:29:00,served
+ONLINE-1748512810294,kiran@gmail.com,kiran@gmail.com,Veg Biryani x1 @ ₹160.0; Chicken Biryani x1 @ ₹200.0,360.0,online,online,2025-05-29 15:31:03,delivered
+ONLINE-1748594876063,kiran@gmail.com,kiran@gmail.com,Tandoori Chicken x1 @ ₹220.0; Rasgulla x1 @ ₹60.0,280.0,online,online,2025-05-30 14:19:20,delivered
+DINEIN-1748595131713,kiran@gmail.com,kiran@gmail.com,Chicken 65 x1 @ ₹180.0; Fish Fingers x1 @ ₹200.0; Cold Coffee x1 @ ₹80.0; Blueberry Cheesecake x1 @ ₹150.0,610.0,dinein,dinein,2025-05-30 14:22:30,served
+DINEIN-1748795158277,kiran@gmail.com,kiran@gmail.com,Cappuccino x1 @ ₹80.0,80.0,dinein,dinein,2025-06-01 21:57:19,served
+ONLINE-1748859099669,kiran@gmail.com,kiran@gmail.com,Cappuccino x1 @ ₹80.0; Espresso x1 @ ₹60.0,140.0,online,online,2025-06-02 16:00:56,delivered
+DINEIN-1748859981705,kiran@gmail.com,kiran@gmail.com,Cappuccino x2 @ ₹80.0,160.0,dinein,dinein,2025-06-02 16:02:09,served

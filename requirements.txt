@@ -1,0 +1,34 @@
+#  FastAPI Backend
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+asyncpg
+psycopg2-binary
+passlib[bcrypt]
+python-jose  # JWT Auth
+pydantic[email]
+email-validator
+pillow 
+python-multipart
+# Flask ML Microservices
+flask
+flask-cors
+gunicorn  # Production-ready WSGI server
+
+#  Machine Learning & Data Processing
+scikit-learn
+numpy
+pandas
+tensorflow
+torch
+transformers  # NLP-based sentiment analysis
+opencv-python  # Image recognition with food images
+prophet
+plotly
+
+#  WebSockets
+websockets
+
+#  Request Handling
+requests
