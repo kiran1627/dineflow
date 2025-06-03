@@ -10,36 +10,27 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Import route modules
+# Import route modules (make sure these exist in routes folder)
 from routes import auth, menu, order, payment, analytics, ml_routes, booking_routes, track, recommend
 
-# Enable CORS
+# Enable CORS for frontend connections
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with your frontend domain in production
+    allow_origins=["*"],  # Change to your frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Path to your static files and images (your backend static content)
-STATIC_DIR = "C:/Users/HP/restaurant-ordering-system/backend/static"
-IMAGES_DIR = os.path.join(STATIC_DIR, "images")
+# Path to static files relative to this file location
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_DIR = os.path.join(BASE_DIR, "../static")
 
-if os.path.exists(IMAGES_DIR):
+if os.path.exists(STATIC_DIR):
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
-    print(f"✅ Serving static files from: {IMAGES_DIR}")
+    print(f"✅ Serving static files from: {STATIC_DIR}")
 else:
-    print("⚠️ Warning: 'static/images' directory not found. Static files may not be served.")
-
-# ** NEW ** Serve React frontend build folder as root "/"
-REACT_BUILD_DIR = "C:/Users/HP/restaurant-ordering-system/frontend/build"
-
-if os.path.exists(REACT_BUILD_DIR):
-    app.mount("/", StaticFiles(directory=REACT_BUILD_DIR, html=True), name="frontend")
-    print(f"✅ Serving React frontend from: {REACT_BUILD_DIR}")
-else:
-    print("⚠️ Warning: React build directory not found. Frontend will not be served.")
+    print("⚠️ Warning: Static directory not found. Static files may not be served.")
 
 # Register API routes
 app.include_router(auth.router, prefix="/auth", tags=["Authentication"])
@@ -52,7 +43,10 @@ app.include_router(booking_routes.router, prefix="/booking", tags=["Table Bookin
 app.include_router(track.router, prefix="/track", tags=["Order Tracking"])
 app.include_router(recommend.router, prefix="/recommend", tags=["Recommendation"])
 
-# Optional: health check or API root endpoint
+# Root API endpoint for health check
 @app.get("/api")
 def root():
     return {"message": "✅ Restaurant Ordering System API is up and running"}
+frontend_path = os.path.join(os.path.dirname(__file__), '../../frontend/build')
+if os.path.isdir(frontend_path):
+    app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")

@@ -15,7 +15,7 @@ python-multipart
 flask
 flask-cors
 gunicorn  # Production-ready WSGI server
-
+itsdangerous
 #  Machine Learning & Data Processing
 scikit-learn
 numpy
