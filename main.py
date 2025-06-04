@@ -46,4 +46,4 @@ app.include_router(recommend.router, prefix="/recommend", tags=["Recommendation"
 # Root API endpoint for health check
 @app.get("/api")
 def root():
-    return {"message": "✅ Restaurant Ordering System API is up and running"}
+    return {"message": "🍽️ DineFlow Backend is Running"}
