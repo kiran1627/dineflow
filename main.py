@@ -43,13 +43,6 @@ app.include_router(booking_routes.router, prefix="/booking", tags=["Table Bookin
 app.include_router(track.router, prefix="/track", tags=["Order Tracking"])
 app.include_router(recommend.router, prefix="/recommend", tags=["Recommendation"])
 
-# Root API endpoint for health check
-<<<<<<< HEAD
-@app.get("/api")
-def root():
-    return {"message": "🍽️ DineFlow Backend is Running"}
-=======
 @app.get("/")
-def read_root():
-    return {"message": "Welcome to DineFlow API 🎉"}
->>>>>>> 23523fa (Fix: Add root route for FastAPI)
+def root():
+    return {"message": "Hello from local version"}  # or choose the better one
