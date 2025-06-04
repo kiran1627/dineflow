@@ -1,0 +1,4 @@
+order_id,customer_name,user_email,items,total_price,mode,order_type,timestamp,status
+DINEIN-1749035382777,sunny@gmail.com,sunny@gmail.com,Pasta Alfredo x1 @ ₹150.0; Chicken Biryani x1 @ ₹200.0; Cold Coffee x1 @ ₹80.0,430.0,dinein,dinein,2025-06-04 16:44:32,served
+ONLINE-1749035508912,kiran@gmail.com,kiran@gmail.com,Crispy Baby Corn x1 @ ₹120.0; Samosa x1 @ ₹40.0,160.0,online,online,2025-06-04 16:42:57,delivered
+DINEIN-1749035654058,kiran@gmail.com,kiran@gmail.com,Corn Cheese Balls x1 @ ₹100.0; Samosa x1 @ ₹40.0,140.0,dinein,dinein,2025-06-04 16:44:52,served

@@ -3,15 +3,15 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import os
 
+# Import routes from fastapi_app.routes package
+from fastapi_app.routes import auth, menu, order, payment, analytics, ml_routes, booking_routes, track, recommend
+
 # Initialize FastAPI app
 app = FastAPI(
     title="Restaurant Ordering System",
     description="A FastAPI backend integrated with a Flask ML microservice.",
     version="1.0.0"
 )
-
-# Import route modules (make sure these exist in routes folder)
-from routes import auth, menu, order, payment, analytics, ml_routes, booking_routes, track, recommend
 
 # Enable CORS for frontend connections
 app.add_middleware(
@@ -23,8 +23,8 @@ app.add_middleware(
 )
 
 # Path to static files relative to this file location
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_DIR = os.path.join(BASE_DIR, "../static")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # backend folder
+STATIC_DIR = os.path.join(BASE_DIR, "static")          # backend/static folder
 
 if os.path.exists(STATIC_DIR):
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
@@ -47,6 +47,3 @@ app.include_router(recommend.router, prefix="/recommend", tags=["Recommendation"
 @app.get("/api")
 def root():
     return {"message": "✅ Restaurant Ordering System API is up and running"}
-frontend_path = os.path.join(os.path.dirname(__file__), '../../frontend/build')
-if os.path.isdir(frontend_path):
-    app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")

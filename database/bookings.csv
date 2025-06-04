@@ -1,0 +1,3 @@
+booking_id,customer_name,email,phone,date,time,guests,timestamp,status
+bcc331d9-23e2-499b-82b2-1a69e64f409f,kiran,kiran@gmail.com,9632587410,2025-12-16,11:30,5,2025-06-04 16:39:40,pending
+ea07848c-039c-4437-848c-d6d744b86567,kiran,kiran@gmail.com,8956231471,2025-12-10,12:30,5,2025-06-04 16:44:11,pending

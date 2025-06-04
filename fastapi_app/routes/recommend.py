@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from models.recommend import get_recommended_items
+from fastapi_app.models.recommend import get_recommended_items
+
 
 router = APIRouter()
 

@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Request, HTTPException, Form
 from fastapi.responses import JSONResponse
-from models.payment import Payment
-from models.order import Order
+from fastapi_app.models.payment import Payment
+from fastapi_app.models.order import Order
+
 
 router = APIRouter()
 

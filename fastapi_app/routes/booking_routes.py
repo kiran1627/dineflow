@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, EmailStr
 from datetime import datetime
-from models.booking import Booking
+from fastapi_app.models.booking import Booking
 import uuid
 
 router = APIRouter()

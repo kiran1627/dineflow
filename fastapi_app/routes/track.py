@@ -1,7 +1,8 @@
 from fastapi import APIRouter, HTTPException, Body, Path
 from pydantic import BaseModel
 from typing import List, Literal
-from models.order_track import OrderTrack
+from fastapi_app.models.order_track import OrderTrack
+
 
 router = APIRouter()
 

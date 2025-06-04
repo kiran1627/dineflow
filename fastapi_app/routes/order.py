@@ -2,7 +2,8 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, EmailStr  # ✅ Use EmailStr
 from typing import List
 from datetime import datetime
-from models.order import Order
+from ..models.order import Order
+
 
 router = APIRouter()
 

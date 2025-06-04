@@ -1,5 +1,6 @@
 from fastapi import APIRouter
-from models.menu import MenuItem
+from fastapi_app.models.menu import MenuItem
+
 
 router = APIRouter()
 
