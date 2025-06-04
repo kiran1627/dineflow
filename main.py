@@ -10,7 +10,9 @@ from fastapi_app.routes import auth, menu, order, payment, analytics, ml_routes,
 app = FastAPI(
     title="Restaurant Ordering System",
     description="A FastAPI backend integrated with a Flask ML microservice.",
-    version="1.0.0"
+    version="1.0.0",
+    docs_url="/docs",
+    redoc_url="/redoc"
 )
 
 # Enable CORS for frontend connections
@@ -43,6 +45,8 @@ app.include_router(booking_routes.router, prefix="/booking", tags=["Table Bookin
 app.include_router(track.router, prefix="/track", tags=["Order Tracking"])
 app.include_router(recommend.router, prefix="/recommend", tags=["Recommendation"])
 
-@app.get("/")
+# Root route supports GET and HEAD to avoid 405 Method Not Allowed errors
+@app.get("/", include_in_schema=False)
+@app.head("/", include_in_schema=False)
 def root():
-    return {"message": "Hello from local version"}  # or choose the better one
+    return {"message": "Hello from local version"}
