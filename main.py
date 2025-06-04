@@ -44,6 +44,6 @@ app.include_router(track.router, prefix="/track", tags=["Order Tracking"])
 app.include_router(recommend.router, prefix="/recommend", tags=["Recommendation"])
 
 # Root API endpoint for health check
-@app.get("/api")
-def root():
-    return {"message": "🍽️ DineFlow Backend is Running"}
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to DineFlow API 🎉"}
